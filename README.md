@@ -47,3 +47,61 @@ Medicine-Recommendation-System/
 ├── model_training.ipynb    # Jupyter notebook for model creation
 ├── requirements.txt         # Required dependencies
 └── README.md               # Project documentation
+
+# 🧠 Tech Stack
+
+| Category             | Technologies Used     |
+| -------------------- | --------------------- |
+| **Language**         | Python                |
+| **Framework**        | Flask                 |
+| **Machine Learning** | Scikit-learn          |
+| **Data Handling**    | Pandas, NumPy         |
+| **Frontend**         | HTML, CSS, JavaScript |
+
+# ⚙️ How It Works
+
+1️⃣ The user enters one or more symptoms into the web form.
+2️⃣ The trained ML model processes these symptoms.
+3️⃣ The model predicts the best-matched medicine from the dataset.
+4️⃣ The result is displayed instantly on the web page.
+
+# 🚀 Installation & Setup
+
+🔹 Step 1: Clone the repository
+git clone https://github.com/Vikasgithubpro/Medicine-Recommendation-System.git
+🔹 Step 2: Navigate to the project folder
+cd Medicine-Recommendation-System
+🔹 Step 3: Install dependencies
+pip install -r requirements.txt
+🔹 Step 4: Run the Flask app
+python app.py
+🔹 Step 5: Open in your browser
+http://127.0.0.1:5000/
+
+# 🧩 Model Details
+
+Algorithm Used: Decision Tree Classifier
+Dataset: Custom dataset (Symptoms → Medicines mapping)
+Accuracy: ~95% on test data
+Evaluation Metrics: Accuracy, Precision, Recall
+
+# 📚 Future Enhancements
+
+🧾 Generate downloadable prescription reports
+🤖 Integrate AI chatbot for medical advice
+📱 Build a mobile app version
+💊 Add real-time medicine stock and dosage info
+🌐 API for hospital or pharmacy integration
+
+# 👨‍💻 Author
+
+Vikas Singh
+📂 GitHub: Vikasgithubpro
+🌐 Passionate about AI, Machine Learning, and Web Development
+
+# 📜 License
+
+This project is licensed under the MIT License.
+You are free to use, modify, and distribute it with proper credit.
+
+
