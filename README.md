@@ -3,10 +3,11 @@
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-Web%20Framework-lightgrey)](https://flask.palletsprojects.com/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![ML Project](https://img.shields.io/badge/Project-Machine%20Learning-orange)]()
+[![Machine Learning](https://img.shields.io/badge/AI%2FML-Project-orange)]()
+[![Built with ❤️ by Vikas Singh](https://img.shields.io/badge/Built%20with-❤️%20by%20Vikas%20Singh-red)](https://github.com/Vikasgithubpro)
 
-A **Machine Learning-based web application** that recommends appropriate medicines based on symptoms entered by the user.  
-Built with **Python**, **Flask**, and **Scikit-learn**, this project helps simplify healthcare decisions through AI-powered suggestions.
+A **Machine Learning-based web application** that recommends appropriate medicines based on user-entered symptoms.  
+Developed using **Python**, **Flask**, and **Scikit-learn**, this project makes healthcare guidance faster and more intelligent.
 
 ---
 
@@ -26,11 +27,11 @@ Built with **Python**, **Flask**, and **Scikit-learn**, this project helps simpl
 
 ## ✨ Features
 
-✅ Predicts the most suitable **medicine** based on entered symptoms  
-✅ Uses a **trained Decision Tree Classifier** model  
-✅ Clean and responsive **Flask web interface**  
-✅ Real-time **symptom input and result display**  
-✅ Lightweight and **easy to deploy locally**
+✅ Predicts the most suitable **medicine** based on symptoms  
+✅ Uses a **Decision Tree Classifier** model  
+✅ Simple and clean **Flask-based web interface**  
+✅ Instant result display  
+✅ Lightweight and easy to deploy  
 
 ---
 
@@ -40,68 +41,11 @@ Built with **Python**, **Flask**, and **Scikit-learn**, this project helps simpl
 Medicine-Recommendation-System/
 │
 ├── dataset/                # Dataset used for model training
-├── model/                  # Trained ML models (.pkl files)
-├── static/                 # CSS, JS, and image files
-├── templates/              # HTML templates for the Flask app
-├── app.py                  # Main application file
-├── model_training.ipynb    # Jupyter notebook for model creation
-├── requirements.txt         # Required dependencies
+├── model/                  # Trained ML model (.pkl file)
+├── static/                 # CSS, JS, images
+├── templates/              # HTML templates for UI
+├── app.py                  # Main Flask application
+├── model_training.ipynb    # Notebook for model creation
+├── requirements.txt         # Dependencies
 └── README.md               # Project documentation
-
-# 🧠 Tech Stack
-
-| Category             | Technologies Used     |
-| -------------------- | --------------------- |
-| **Language**         | Python                |
-| **Framework**        | Flask                 |
-| **Machine Learning** | Scikit-learn          |
-| **Data Handling**    | Pandas, NumPy         |
-| **Frontend**         | HTML, CSS, JavaScript |
-
-# ⚙️ How It Works
-
-1️⃣ The user enters one or more symptoms into the web form.
-2️⃣ The trained ML model processes these symptoms.
-3️⃣ The model predicts the best-matched medicine from the dataset.
-4️⃣ The result is displayed instantly on the web page.
-
-# 🚀 Installation & Setup
-
-🔹 Step 1: Clone the repository
-git clone https://github.com/Vikasgithubpro/Medicine-Recommendation-System.git
-🔹 Step 2: Navigate to the project folder
-cd Medicine-Recommendation-System
-🔹 Step 3: Install dependencies
-pip install -r requirements.txt
-🔹 Step 4: Run the Flask app
-python app.py
-🔹 Step 5: Open in your browser
-http://127.0.0.1:5000/
-
-# 🧩 Model Details
-
-Algorithm Used: Decision Tree Classifier
-Dataset: Custom dataset (Symptoms → Medicines mapping)
-Accuracy: ~95% on test data
-Evaluation Metrics: Accuracy, Precision, Recall
-
-# 📚 Future Enhancements
-
-🧾 Generate downloadable prescription reports
-🤖 Integrate AI chatbot for medical advice
-📱 Build a mobile app version
-💊 Add real-time medicine stock and dosage info
-🌐 API for hospital or pharmacy integration
-
-# 👨‍💻 Author
-
-Vikas Singh
-📂 GitHub: Vikasgithubpro
-🌐 Passionate about AI, Machine Learning, and Web Development
-
-# 📜 License
-
-This project is licensed under the MIT License.
-You are free to use, modify, and distribute it with proper credit.
-
 
